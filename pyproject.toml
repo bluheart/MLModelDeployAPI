@@ -1,0 +1,11 @@
+[project]
+name = "mlmodeldeployapi"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.121.1",
+    "joblib>=1.5.2",
+    "numpy>=2.3.4",
+    "scikit-learn>=1.7.2",
+]
